@@ -17,10 +17,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run amplify-pull & react-scripts build",
+    "build": "amplify pull & react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "amplify-pull": "amplify pull --amplify $AMPLIFY --providers $PROVIDERS --yes"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
